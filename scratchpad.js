@@ -126,7 +126,7 @@
 //    }
 // }
 
-
+//////////////Bond Films/////////////////////////
 
 const bondFilms = [
   { "title" : "Skyfall", "year" : 2012, "actor" : "Daniel Craig", "gross" : "$1,108,561,008" },
@@ -153,8 +153,16 @@ const bondFilms = [
   { "title" : "A View to a Kill", "year" : 1985, "actor" : "Roger Moore", "gross" : "$321,172,633" },
   { "title" : "License to Kill", "year" : 1989, "actor" : "Timothy Dalton", "gross" : "$285,157,191" }
 ];
-const bondTitles = [];
-for(var f = 0; f < bondFilms.length; f++) {
-  bondTitles.push(bondFilms[f]["title"]);
+// const bondTitles = [];
+// for(var f = 0; f < bondFilms.length; f++) {
+//   bondTitles.push(bondFilms[f]["title"]);
+// }
+// console.log(bondTitles);
+
+//I can
+const oddBonds = [];
+for(var n = 0; n < bondFilms.length &&
+  bondFilms[n]["year"] % 2 == 1; n++) {
+  oddBonds.push(bondFilms[n]["title"]);
 }
-console.log(bondTitles);
+  console.log(oddBonds);
