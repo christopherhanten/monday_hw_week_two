@@ -51,3 +51,21 @@ let students = [
   {name: "Khoa Constrictor", location: "H-Tawn", favTvShows: ["game of thrones", "silicon valley"]}
 ]
 console.log(students);
+
+////////////////Take it Easy/////////////////////////
+
+//1.
+let rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+//2.
+console.log(rainbow[4]);
+
+//3.
+let christopher = {
+      faveFood: "Pizza!",
+      aHobby: "Making beats",
+      currentTown: "ATX-78752",
+      faveDataType: "object, duh."
+};
+//4.
+console.log(christopher.aHobby);

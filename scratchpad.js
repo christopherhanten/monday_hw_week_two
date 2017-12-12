@@ -1,3 +1,4 @@
+////////////////Datatypes////////////////////////////
 //1. For the light switch I would use a boolean since there are only two options: Light is on; light is off. I cannot make this else statement work-I've never been able to for that matter. I obvs need help.
 // let up = 1;
 // let down =! 1;
@@ -39,15 +40,30 @@
 // console.log(students);
 
 //6. I would contiue with this object, adding an array in brackets
-let students = [
-  {name: "christoball", location: "Austin", favTvShows: ["forensic files", "big mouth"]},
-  {name: "Tesstament", location: "Austin", favTvShows: ["bojack horseman", "ncis"]},
-  {name: "Scott-tot-tot tot", location: "Austin", favTvShows: ["scorpion", "the mentalist"]},
-  {name: "Jake the Rake", location: "Austin", favTvShows: ["family fued",  "the munsters"]},
-  {name: "Neo-Classical", location: "College Station", favTvShows: ["NHL", "downton alley"]},
-  {name: "Maximum", location: "Cedar Park", favTvShows: ["hannible", "lt. joe kenda homicide hunter"]},
-  {name: "Lord Have Marci", location: "Austin", favTvShows: ["adventure time", "SNL"]},
-  {name: "Lillian of the Valley", location: "Heaven", favTvShows:["property brothers", "breaking bad"]},
-  {name: "Khoa Constrictor", location: "H-Tawn", favTvShows: ["game of thrones", "silicon valley"]}
-]
-console.log(students);
+// let students = [
+//   {name: "christoball", location: "Austin", favTvShows: ["forensic files", "big mouth"]},
+//   {name: "Tesstament", location: "Austin", favTvShows: ["bojack horseman", "ncis"]},
+//   {name: "Scott-tot-tot tot", location: "Austin", favTvShows: ["scorpion", "the mentalist"]},
+//   {name: "Jake the Rake", location: "Austin", favTvShows: ["family fued",  "the munsters"]},
+//   {name: "Neo-Classical", location: "College Station", favTvShows: ["NHL", "downton alley"]},
+//   {name: "Maximum", location: "Cedar Park", favTvShows: ["hannible", "lt. joe kenda homicide hunter"]},
+//   {name: "Lord Have Marci", location: "Austin", favTvShows: ["adventure time", "SNL"]},
+//   {name: "Lillian of the Valley", location: "Heaven", favTvShows:["property brothers", "breaking bad"]},
+//   {name: "Khoa Constrictor", location: "H-Tawn", favTvShows: ["game of thrones", "silicon valley"]}
+// ]
+// console.log(students);
+
+////////////////Take it Easy/////////////////////////
+
+//1. let rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+//2.console.log(rainbow[4]);
+
+//3.
+let christopher = {
+      faveFood: "Pizza!",
+      aHobby: "Making beats",
+      currentTown: "ATX-78752",
+      faveDataType: "object, duh."
+};
+    console.log(christopher.aHobby);
