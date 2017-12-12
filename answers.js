@@ -170,3 +170,5 @@ const oddBonds = [];
     console.log(oddBonds);
 
 //I cannot get this ^^ to work. urg!:) it's a simple mistake I know.
+
+//This is as far as I'm going to make it on HW tonight. Farther than ever before tho.
