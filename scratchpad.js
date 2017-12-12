@@ -23,17 +23,31 @@
 // const students = ["christoball", "Tesstament", "Scott-tot-tot tot", "Jake the Rake", "Neo-Classical", "Maximum", "Lord Have Marci", "Lillian of the Valley", "Khoa Constrictor"];
 // console.log(students);
 
-//5.now that we are adding other items that rep our classmates, I would move to an object, with arrays inside of it. This is another that I don't understand what's wrong it doesn't like the opening curly bracket before name on line 29.
+//5.now that we are adding other items that rep our classmates, I would move to an object, with arrays inside of it.
 
+// let students = [
+//   {name: "christoball", location: "Austin"},
+//   {name: "Tesstament", location: "Austin"},
+//   {name: "Scott-tot-tot tot", location: "Austin"},
+//   {name: "Jake the Rake", location: "Austin"},
+//   {name: "Neo-Classical", location: "College Station"},
+//   {name: "Maximum", location: "Cedar Park"},
+//   {name: "Lord Have Marci", location: "Austin"},
+//   {name: "Lillian of the Valley", location: "Heaven"},
+//   {name: "Khoa Constrictor", location: "H-Tawn"}
+// ]
+// console.log(students);
+
+//6. I would contiue with this object, adding an array in brackets
 let students = [
-  {name: "christoball", location: "Austin"},
-  {name: "Tesstament", location: "Austin"},
-  {name: "Scott-tot-tot tot", location: "Austin"},
-  {name: "Jake the Rake", location: "Austin"},
-  {name: "Neo-Classical", location: "College Station"},
-  {name: "Maximum", location: "Cedar Park"},
-  {name: "Lord Have Marci", location: "Austin"},
-  {name: "Lillian of the Valley", location: "Heaven"},
-  {name: "Khoa Constrictor", location: "H-Tawn"}
+  {name: "christoball", location: "Austin", favTvShows: ["forensic files", "big mouth"]},
+  {name: "Tesstament", location: "Austin", favTvShows: ["bojack horseman", "ncis"]},
+  {name: "Scott-tot-tot tot", location: "Austin", favTvShows: ["scorpion", "the mentalist"]},
+  {name: "Jake the Rake", location: "Austin", favTvShows: ["family fued",  "the munsters"]},
+  {name: "Neo-Classical", location: "College Station", favTvShows: ["NHL", "downton alley"]},
+  {name: "Maximum", location: "Cedar Park", favTvShows: ["hannible", "lt. joe kenda homicide hunter"]},
+  {name: "Lord Have Marci", location: "Austin", favTvShows: ["adventure time", "SNL"]},
+  {name: "Lillian of the Valley", location: "Heaven", favTvShows:["property brothers", "breaking bad"]},
+  {name: "Khoa Constrictor", location: "H-Tawn", favTvShows: ["game of thrones", "silicon valley"]}
 ]
 console.log(students);
